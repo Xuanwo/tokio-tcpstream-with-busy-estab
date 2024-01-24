@@ -1,6 +1,9 @@
 # Adapted from original source:
 # https://github.com/ModioAB/snippets/blob/master/src/tcp_info.py
 #
+# Copied from:
+# https://github.com/cloudflare/cloudflare-blog/tree/master/2019-09-tcp-keepalives
+
 import ctypes
 import socket
 

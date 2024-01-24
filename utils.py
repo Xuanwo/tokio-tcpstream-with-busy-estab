@@ -1,3 +1,6 @@
+# Copied from:
+# https://github.com/cloudflare/cloudflare-blog/tree/master/2019-09-tcp-keepalives
+
 import atexit
 import ctypes
 import io
