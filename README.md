@@ -1,4 +1,4 @@
-# Token TcpStream with busy ESTAB TCP
+# Tokio TcpStream with busy ESTAB TCP
 
 This project is used to reproduce the cases that the ESTAB TCP is busy. In this case, TcpStream will not emit any events. Thus tokio runtime will not poll our futures anymore which makes the futures hang until TCP reaches it's own retry times.
 
